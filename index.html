@@ -16,64 +16,17 @@ html, body {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(4, 1fr);
-  gap: 10px;
-  height: 100vh;
-  padding: 10px;
+  gap: 18px;                 /* 기존 10px → 여유 있게 */
+  padding: 18px;             /* 외곽 여백 증가 */
   box-sizing: border-box;
 }
 
+/* 각 카드 */
 a {
   display: block;
   background: white;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0 3px 8px rgba(0,0,0,0.25);
-}
 
-img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-</style>
-</head>
-
-<body>
-<div class="grid">
-
-<a href="https://tv.naver.com/v/3444381">
-  <img src="a1.jpg" alt="생일축하노래">
-</a>
-
-<a href="https://tv.naver.com/v/3444395">
-  <img src="a2.jpg" alt="곰세마리">
-</a>
-
-<a href="https://tv.naver.com/v/3444579">
-  <img src="a3.jpg" alt="그대로멈춰라">
-</a>
-
-<a href="https://tv.naver.com/v/3444576">
-  <img src="a4.jpg" alt="멋쟁이토마토">
-</a>
-
-<a href="https://tv.naver.com/v/10529266">
-  <img src="a5.jpg" alt="가을들판">
-</a>
-
-<a href="https://tv.naver.com/v/3444740">
-  <img src="a6.jpg" alt="고향의 봄">
-</a>
-
-<a href="https://tv.naver.com/jrmusic?tab=clip">
-  <img src="a7.jpg" alt="쥬니버 동요">
-</a>
-
-<a href="https://tv.naver.com/v/18294311?playlistNo=228648">
-  <img src="a8.jpg" alt="깨비키즈 동요">
-</a>
-
-</div>
-</body>
-</html>
+  /* ★ 이미지 원*
